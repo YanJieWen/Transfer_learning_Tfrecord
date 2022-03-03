@@ -9,6 +9,7 @@ numpy==1.19.0
 tensorflow==1.2.0
 
 主程序：main.py
+
 步骤1：数据读写
 如果你想重新读取数据，将if_writer参数设置为True，Tfrecord格式数据保存在datasets下，0为训练集，1为验证集，2为测试集/原始数据保存在flower_photos下
 如果你不想读取数据则if_writer参数设置为Fals
