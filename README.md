@@ -25,3 +25,9 @@ tensorflow==1.2.0
 原始图像数据下载地址：http://download.tensorflow.org/example_image/flower_photos.tgz
 
 Inception_v3模型参数下载地址：http://download.tensorflow.org/models/inception_v3_2016_08_28.tar.gz 下载后放到model文件夹下
+
+tfrecord格式数据下载地址：链接：https://pan.baidu.com/s/1cSeyS7spOeh2GjU6RxzU8Q 
+提取码：ty7g
+
+训练模型的权重文件下载地址：链接：https://pan.baidu.com/s/1-uoVDKCgUGoRpYD_Q6RJHA 
+提取码：74q6
