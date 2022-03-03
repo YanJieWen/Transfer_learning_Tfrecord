@@ -13,6 +13,7 @@ tensorflow==1.2.0
 步骤1：数据读写
 如果你想重新读取数据，将if_writer参数设置为True，Tfrecord格式数据保存在datasets下，0为训练集，1为验证集，2为测试集/原始数据保存在flower_photos下
 如果你不想读取数据则if_writer参数设置为Fals
+
 步骤2：模型训练与测试
 模型的权重文件保存在model_factory目录下，你如果想重新训练则需要把if_train设置为True
 如果不想训练，想查寻测试的结果则设置为False，模型的效果不太理想，精度只有0.4，主要是作者的电脑读取[299,299,3]的图片时容易导致内存溢出，bacth_size=5且iter=10，epoch=100；如果设备允许可以适当调高上述参数并重新训练。
