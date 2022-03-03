@@ -1,2 +1,2 @@
 # Transfer_learning_Tfrecord
-A complete in-depth learning project is used for image classification
+A complete in deep learning project is used for image classification
